@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmlink Africa</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f7fafc;
+            color: #222;
+        }
+        header {
+            background: linear-gradient(90deg, #2e8b57 60%, #3cb371 100%);
+            color: #fff;
+            padding: 40px 0 60px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.8rem;
+            margin: 0 0 10px 0;
+            letter-spacing: 2px;
+        }
+        header p {
+            font-size: 1.3rem;
+            margin: 0 0 20px 0;
+        }
+        nav {
+            margin-top: 20px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 18px;
+            font-weight: 500;
+            font-size: 1rem;
+            transition: text-decoration 0.2s;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 50px 10px;
+            background: #fff;
+        }
+        .feature {
+            background: #f0f8f5;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(46,139,87,0.08);
+            padding: 30px 24px;
+            max-width: 300px;
+            text-align: center;
+        }
+        .feature h3 {
+            margin-top: 0;
+            color: #2e8b57;
+        }
+        .how-it-works {
+            background: #e6f2ec;
+            padding: 50px 10px;
+            text-align: center;
+        }
+        .how-it-works h2 {
+            color: #2e8b57;
+        }
+        .steps {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .step {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(46,139,87,0.07);
+            padding: 24px 18px;
+            max-width: 220px;
+        }
+        .step h4 {
+            margin: 0 0 10px 0;
+            color: #3cb371;
+        }
+        .cta {
+            background: linear-gradient(90deg, #3cb371 60%, #2e8b57 100%);
+            color: #fff;
+            text-align: center;
+            padding: 50px 10px;
+        }
+        .cta h2 {
+            margin-bottom: 18px;
+        }
+        .cta button {
+            background: #fff;
+            color: #2e8b57;
+            border: none;
+            border-radius: 6px;
+            padding: 14px 32px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.2s, color 0.2s;
+        }
+        .cta button:hover {
+            background: #2e8b57;
+            color: #fff;
+        }
+        footer {
+            background: #222;
+            color: #fff;
+            text-align: center;
+            padding: 24px 10px;
+            font-size: 1rem;
+        }
+        @media (max-width: 800px) {
+            .features, .steps {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Farmlink Africa</h1>
+        <p>Connecting African farmers to markets, resources, and opportunities.</p>
+        <nav>
+            <a href="#features">Features</a>
+            <a href="#how">How It Works</a>
+            <a href="#cta">Get Started</a>
+        </nav>
+    </header>
+
+    <section class="features" id="features">
+        <div class="feature">
+            <h3>Marketplace Access</h3>
+            <p>Farmers can list and sell their produce directly to buyers, increasing profits and reducing middlemen.</p>
+        </div>
+        <div class="feature">
+            <h3>Resource Hub</h3>
+            <p>Access to farming tips, weather updates, and expert advice to boost productivity and sustainability.</p>
+        </div>
+        <div class="feature">
+            <h3>Logistics Support</h3>
+            <p>Integrated logistics solutions to help farmers deliver products efficiently and reliably.</p>
+        </div>
+        <div class="feature">
+            <h3>Community Network</h3>
+            <p>Connect with other farmers, share experiences, and collaborate for growth and innovation.</p>
+        </div>
+    </section>
+
+    <section class="how-it-works" id="how">
+        <h2>How It Works</h2>
+        <div class="steps">
+            <div class="step">
+                <h4>1. Sign Up</h4>
+                <p>Create your free account and set up your farm profile.</p>
+            </div>
+            <div class="step">
+                <h4>2. List Products</h4>
+                <p>Add your produce to the marketplace and reach buyers across Africa.</p>
+            </div>
+            <div class="step">
+                <h4>3. Connect & Sell</h4>
+                <p>Communicate with buyers, arrange logistics, and complete sales securely.</p>
+            </div>
+            <div class="step">
+                <h4>4. Grow Together</h4>
+                <p>Access resources, join the community, and expand your farming business.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta" id="cta">
+        <h2>Ready to transform your farm?</h2>
+        <p>Join Farmlink Africa today and unlock new opportunities for growth and success.</p>
+        <button onclick="showSignup()">Get Started</button>
+    </section>
+
+    <footer>
+        &copy; 2025 Farmlink Africa. All rights reserved.
+    </footer>
+
+    <script>
+        function showSignup() {
+            alert('Signup feature coming soon! Stay tuned.');
+        }
+    </script>
+</body>
+</html>
